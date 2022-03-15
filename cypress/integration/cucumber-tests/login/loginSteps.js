@@ -19,12 +19,12 @@ Given ('I open login page', () => {
     LoginPage.Submit()*/
 
 
-When ('I fill username with {String}', username =>{
+When ('I fill username with {string}', username =>{
 
     LoginPage.fillUserName(username)
 })
 
-When ('I fill password with {String}',password => {
+When ('I fill password with {string}',password => {
 
     LoginPage.fillPassword(password)
 

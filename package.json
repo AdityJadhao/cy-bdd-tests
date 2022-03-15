@@ -18,7 +18,8 @@
     "cypress": "^9.5.1",
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
-  "cypress-cucumber-preprocessor":{
-    "nonGlobleStepDefinitions": true
-  }
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+}
+  
 }

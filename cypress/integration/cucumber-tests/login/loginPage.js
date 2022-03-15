@@ -17,7 +17,7 @@ class LoginPage {
     }
 
     static fillPassword(password){
-        cy.get(PASSWORD_INPUT).typr(password)
+        cy.get(PASSWORD_INPUT).type(password)
 
     }
 
@@ -27,7 +27,7 @@ class LoginPage {
     }
 
     static shouldShowErrorMessage(){
-        cy.get(ERROR_MESSAGE).contains('Invalid credentials')
+        cy.get(ERROR_MESSAGE)
 
     }
 

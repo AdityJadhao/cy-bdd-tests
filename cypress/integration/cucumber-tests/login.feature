@@ -5,7 +5,7 @@ Feature: Login to Application
    I want to log in into Application
 
    Scenario: Invalid Login
-    Given I open login page
+        Given I open login page
         When I fill username with 'InvalidAdmin'
         And I fill password with 'InvalidPass'
         And I click on login button
@@ -14,8 +14,8 @@ Feature: Login to Application
 
     @focus   //if we want to execute only this scenario
     Scenario: Valid Login
-      Given I open login page
+        Given I open login page
         When I fill username with 'Admin'
-        And I fill password with 'Admin123'
+        And I fill password with 'admin123'
         And I click on login button
         Then I should see homepage
