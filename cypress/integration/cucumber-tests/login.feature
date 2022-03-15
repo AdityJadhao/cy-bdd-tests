@@ -12,7 +12,7 @@ Feature: Login to Application
         Then I should see error message
 
 
-    @focus   //if we want to execute only this scenario
+    @focus
     Scenario: Valid Login
         Given I open login page
         When I fill username with 'Admin'
